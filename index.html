@@ -1,1 +1,335 @@
-<!DOCTYPE html><html lang="ru" class="page"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="shortcut icon" href="favicon.ico" type="image/x-icon"><meta http-equiv="X-UA-Compatible" content="ie=edge"><meta name="theme-color" content="#111111"><title>MaxGraph New Site</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="css/vendor.css"><link rel="stylesheet" href="css/main.css"><script defer="defer" src="js/main.js"></script></head><body><div class="wrapper"><header class="header"><div class="container-fluid header__container"><a href="javascript:void(0)" class="logo"><img loading="lazy" src="img/logo.svg" class="logo__img" alt="Логотип"></a><nav class="nav" title="Главное меню" data-menu><ul class="nav__list"><li class="nav__item"><a data-scroll href="#about" class="nav__link">О школе</a></li><li class="nav__item"><a href="#trainers" class="nav__link">Тренеры</a></li><li class="nav__item"><a href="#price" class="nav__link">Стоимость</a></li></ul></nav><a href="tel:+78000001122" class="phone header__phone">+7 (800-00) 0-11-22</a> <button class="burger" aria-label="Открыть меню" aria-expanded="false" data-burger><span class="burger__line"></span></button></div></header><main class="main"><section class="section hero"><div class="container"><div class="hero__content"><h1 class="hero__title">ROBO SCHOOL</h1><p class="hero__text">Курсы повышения квалификации по робототехнике для педагогов начальной школы</p><img class="hero__img" src="img/hero-bg.png" alt="Логотип"> <a href="#order" class="hero__btn btn">Записаться на курс</a></div></div></section><section class="section about" id="about"><div class="container"><div class="about__title"><span>Robo School</span> — учреждение для формирования кадрового педагогического резерва в сфере робототехники и программирования</div><ul class="about__list"><li class="about__item"><div class="about__num">10</div><p class="about__text">УМК по различным направлениям по робототехнике</p></li><li class="about__item"><div class="about__num">20</div><p class="about__text">Школ, в которых запущена робототехника</p></li><li class="about__item"><div class="about__num">100</div><p class="about__text">Педагогов прошедших курсы повышения квалификации</p></li><li class="about__item"><div class="about__num">10 000</div><p class="about__text">Обученных детей на базе собственных центров</p></li></ul></div></section><section class="section advantages"><div class="container"><h3 class="advantages__title title">Что вы получите после курса</h3><div class="advantages__list"><div class="advantages__item"><div class="advantages__subtitle">Удостоверение</div><p class="advantages__text">Дающее право преподавать робототехнику для детей 6-12 лет в образовательных учреждениях</p></div><div class="advantages__item"><div class="advantages__subtitle">Знания</div><p class="advantages__text">По основам разработки учебно-методических комплексов по робототехнике и программированию</p></div><div class="advantages__item"><div class="advantages__subtitle">Практику <button class="tooltip" id="button" aria-describedby="tooltip"><svg class=""><use xlink:href="img/sprite.svg#tooltip"></use></svg></button><div class="tooltip__text" id="tooltip" role="tooltip">При наличии свободных мест</div></div><p class="advantages__text">Возможность пройти практику по преподаванию робототехники на базе R: ED LAB (в оффлайн или онлайн формате)</p></div></div></div></section><section class="section trainers" id="trainers"><div class="container"><h2 class="title">Профессиональные тренеры</h2><div class="swiper"><!-- Additional required wrapper --><div class="swiper-wrapper trainers__list"><!-- Slides --><div class="swiper-slide"><img class="trainers__img" src="img/trainers-1.jpg" alt=""><div class="trainers__name">Ирина Лайм</div><div class="trainers__text">преподаватель по робототехнике</div><button class="trainers__btn" data-graph-path="trainers-1" data-graph-animation="fadeInUp">Подробнее</button></div><div class="swiper-slide"><img class="trainers__img" src="img/trainers-2.jpg" alt=""><div class="trainers__name">Марина Орлова</div><div class="trainers__text">преподаватель по робототехнике</div><button class="trainers__btn" data-graph-path="trainers-1">Подробнее</button></div><div class="swiper-slide"><img class="trainers__img" src="img/trainers-3.jpg" alt=""><div class="trainers__name">Максим Петров</div><div class="trainers__text">преподаватель по программированию</div><button class="trainers__btn" data-graph-path="trainers-1">Подробнее</button></div><div class="swiper-slide"><img class="trainers__img" src="img/trainers-4.jpg" alt=""><div class="trainers__name">Константин Назаров</div><div class="trainers__text">преподаватель по робототехнике</div><button class="trainers__btn" data-graph-path="trainers-1">Подробнее</button></div><div class="swiper-slide"><img class="trainers__img" src="img/trainers-5.jpg" alt=""><div class="trainers__name">Лиза Весенняя</div><div class="trainers__text">преподаватель по программированию</div><button class="trainers__btn" data-graph-path="trainers-1">Подробнее</button></div>…</div><!-- If we need pagination --><div class="swiper-pagination"></div><!-- If we need navigation buttons --><div class="trainers__prev"><svg class=""><use xlink:href="img/sprite.svg#arrow-slide"></use></svg></div><div class="trainers__next"><svg class=""><use xlink:href="img/sprite.svg#arrow-slide"></use></svg></div><!-- If we need scrollbar --><div class="swiper-scrollbar trainers__scroll"></div></div></div></section><section class="section price" id="price"><div class="container"><h2 class="title">Выберите нужный пакет</h2><div class="price__list"><div class="price__item price__item--current"><h3 class="price__subtitle">PRO</h3><div class="price__price">20.000 ₽</div><div class="price__text">УМК по робототетхнике и программированию</div><button class="price__btn btn">Оставить заявку</button></div><div class="price__item"><h3 class="price__subtitle">ROBO</h3><div class="price__price">15.000 ₽</div><div class="price__text">УМК по робототетхнике</div><button class="price__btn btn">Оставить заявку</button></div><div class="price__item"><h3 class="price__subtitle">PROG</h3><div class="price__price">10.000 ₽</div><div class="price__text">УМК по робототетхнике</div><button class="price__btn btn">Оставить заявку</button></div></div></div></section><section class="order" id="order"><div class="container"><div class="order__list"><div class="order__left"><h2 class="order__title">Запишитесь на курс со скидкой 10%</h2><p class="order__text">Акция действительна до 10 марта 2022 года</p></div><div class="order__right"><form action="#" class="order__form form" id="form" autocomplete="off" method="POST" enctype="multipart/form-data"><label class="order__label"><input id="name" type="text" name="Имя" class="order__input input__name" placeholder="Имя"></label> <label class="order__label"><input id="tel" type="tel" name="tel" class="order__input input__tel" placeholder="Номер телефона"></label> <label class="order__label"><input type="email" name="email" id="email" class="order__input input__email" placeholder="E-mail"></label> <button class="order__btn btn">Оформить заявку</button></form></div></div></div></section></main><footer class="footer"><div class="container-fluid"><div class="footer__row"><div class="footer__left"><a href="" class="footer__logo logo"><img src="img/logo.svg" alt="" class="logo__img"></a><div class="footer__copy">© ROBO.SCHOOL</div></div><div class="footer__right"><a href="tel:+78000001122" class="footer__phone phone">+7 (800-00) 0-11-22</a></div></div></div></footer><div class="graph-modal"><div class="graph-modal__container popup" role="dialog" aria-modal="true" data-graph-target="trainers-1"><button class="js-modal-close graph-modal__close" aria-label="Закрыть модальное окно">Закрыть</button><div class="graph-modal__content"><div class="popup__top"><div class="popup__img"><img src="img/popup-1.jpg" alt=""></div><div class="popup__info"><div class="popup__name">Марина Орлова</div><div class="popup__post">преподаватель по робототехнике</div><div class="popup__social"><div class="popup__item"><a href="" class="popup__link"><img src="../img/fb.svg" alt=""></a></div><div class="popup__item"><a href="" class="popup__link"><img src="../img/inst.svg" alt=""></a></div></div></div></div><div class="popup__bottom"><div class="tabs" data-tabs="popup"><ul class="tabs__nav"><li class="tabs__nav-item"><button class="tabs__nav-btn" type="button">Образование</button></li><li class="tabs__nav-item"><button class="tabs__nav-btn" type="button">Опыт работы</button></li><li class="tabs__nav-item"><button class="tabs__nav-btn" type="button">Награды</button></li></ul><div class="tabs__content" data-simplebar><div class="tabs__panel"><div class="popup__descr"><div class="popup__text">Сентябрь 1995 — Июнь 2000</div><div class="popup__text">Санкт-Петербургский политехнический университет Петра Великого</div><div class="popup__text">Факультет: Компьютерных наук и технологий</div><div class="popup__text">Специальность: Математика и компьютерные науки</div><div class="popup__text">Форма обучения: Очная</div></div><div class="popup__content"><div class="popup__subtitle">Курсы и тренинги</div><div class="popup__text">Сентябрь 1995 — Июнь 2000</div><div class="popup__text">Санкт-Петербургский политехнический университет Петра Великого</div><div class="popup__text">Факультет: Компьютерных наук и технологий</div><div class="popup__text">Специальность: Математика и компьютерные науки</div><div class="popup__text">Форма обучения: Очная</div></div></div><div class="tabs__panel"><div class="popup__descr"><div class="popup__text">Сентябрь 1995 — Июнь 2000</div><div class="popup__text">Санкт-Петербургский политехнический университет Петра Великого</div><div class="popup__text">Факультет: Компьютерных наук и технологий</div><div class="popup__text">Специальность: Математика и компьютерные науки</div><div class="popup__text">Форма обучения: Очная</div></div><div class="popup__content"><div class="popup__subtitle">Курсы и тренинги</div><div class="popup__text">Сентябрь 1895 — Июнь 2021</div><div class="popup__text">Санкт-Петербургский политехнический университет Петра Великого</div><div class="popup__text">Факультет: Компьютерных наук и технологий</div><div class="popup__text">Специальность: Математика и компьютерные науки</div><div class="popup__text">Форма обучения: Очная</div></div></div><div class="tabs__panel"><div class="popup__descr"><div class="popup__text">Сентябрь 1895 — Июнь 2021</div><div class="popup__text">Санкт-Петербургский политехнический университет Петра Великого</div><div class="popup__text">Факультет: Компьютерных наук и технологий</div><div class="popup__text">Специальность: Математика и компьютерные науки</div><div class="popup__text">Форма обучения: Очная</div></div><div class="popup__content"><div class="popup__subtitle">Курсы и тренинги</div><div class="popup__text">Сентябрь 1995 — Июнь 2000</div><div class="popup__text">Санкт-Петербургский политехнический университет Петра Великого</div><div class="popup__text">Факультет: Компьютерных наук и технологий</div><div class="popup__text">Специальность: Математика и компьютерные науки</div><div class="popup__text"></div></div></div></div></div></div></div></div></div></div></body></html>
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>MaxGraph New Site</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+  <div class="container-fluid header__container">
+    <a href="javascript:void(0)" class="logo"> <img loading="lazy" src="img/logo.svg" class="logo__img"
+        alt="Логотип"></a>
+    <nav class="nav" title="Главное меню" data-menu>
+      <ul class="nav__list">
+        <li class="nav__item"><a data-scroll href="#about" class="nav__link">О школе</a></li>
+        <li class="nav__item"><a href="#trainers" class="nav__link">Тренеры</a></li>
+        <li class="nav__item"><a href="#price" class="nav__link">Стоимость</a></li>
+      </ul>
+    </nav>
+    <a href="tel:+78000001122" class="phone header__phone">+7 (800-00) 0-11-22</a>
+    <button class="burger" aria-label="Открыть меню" aria-expanded="false" data-burger>
+      <span class="burger__line"></span>
+    </button>
+  </div>
+</header>
+    <main class="main">
+      <section class="section hero">
+  <div class="container">
+    <div class="hero__content">
+      <h1 class="hero__title">ROBO SCHOOL</h1>
+      <p class="hero__text">Курсы повышения квалификации по робототехнике для педагогов начальной школы</p>
+      <img class="hero__img" src="img/hero-bg.png" alt="Логотип">
+      <a href="#order" class="hero__btn btn">Записаться на курс</a>
+
+    </div>
+
+  </div>
+</section>
+      <section class="section about" id="about">
+  <div class="container">
+    <div class="about__title"><span>Robo School</span> — учреждение для формирования кадрового педагогического резерва
+      в сфере робототехники и программирования</div>
+    <ul class="about__list">
+      <li class="about__item">
+        <div class="about__num">10</div>
+        <p class="about__text">УМК по различным направлениям по робототехнике</p>
+      </li>
+      <li class="about__item">
+        <div class="about__num">20</div>
+        <p class="about__text">Школ, в которых запущена робототехника</p>
+      </li>
+      <li class="about__item">
+        <div class="about__num">100</div>
+        <p class="about__text">Педагогов прошедших курсы повышения квалификации</p>
+      </li>
+      <li class="about__item">
+        <div class="about__num">10 000</div>
+        <p class="about__text">Обученных детей на базе собственных центров</p>
+      </li>
+    </ul>
+  </div>
+</section>
+      <section class="section advantages">
+  <div class="container">
+    <h3 class="advantages__title title">Что вы получите после курса</h3>
+    <div class="advantages__list">
+      <div class="advantages__item">
+        <div class="advantages__subtitle">Удостоверение</div>
+        <p class="advantages__text">Дающее право преподавать робототехнику для детей 6-12 лет в образовательных
+          учреждениях</p>
+      </div>
+      <div class="advantages__item">
+        <div class="advantages__subtitle">Знания</div>
+        <p class="advantages__text">По основам разработки учебно-методических комплексов
+          по робототехнике и программированию</p>
+      </div>
+      <div class="advantages__item">
+        <div class="advantages__subtitle">
+          Практику
+          <button class="tooltip" id="button" aria-describedby="tooltip">
+            <svg class="">
+              <use xlink:href="img/sprite.svg#tooltip"></use>
+            </svg>
+          </button>
+          <div class="tooltip__text" id="tooltip" role="tooltip">При наличии свободных мест</div>
+        </div>
+        <p class="advantages__text">Возможность пройти практику по преподаванию робототехники на базе R: ED LAB (в
+          оффлайн или онлайн формате)</p>
+      </div>
+    </div>
+  </div>
+</section>
+      <section class="section trainers" id="trainers">
+  <div class="container">
+    <h2 class="title">Профессиональные тренеры</h2>
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper trainers__list">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <img class="trainers__img" src="img/trainers-1.jpg" alt="">
+          <div class="trainers__name">Ирина Лайм</div>
+          <div class="trainers__text">преподаватель по робототехнике</div>
+          <button class="trainers__btn" data-graph-path="trainers-1" data-graph-animation="fadeInUp">Подробнее</button>
+        </div>
+        <div class="swiper-slide">
+          <img class="trainers__img" src="img/trainers-2.jpg" alt="">
+          <div class="trainers__name">Марина Орлова</div>
+          <div class="trainers__text">преподаватель по робототехнике</div>
+          <button class="trainers__btn" data-graph-path="trainers-1">Подробнее</button>
+        </div>
+        <div class="swiper-slide">
+          <img class="trainers__img" src="img/trainers-3.jpg" alt="">
+          <div class="trainers__name">Максим Петров</div>
+          <div class="trainers__text">преподаватель по программированию</div>
+          <button class="trainers__btn" data-graph-path="trainers-1">Подробнее</button>
+        </div>
+        <div class="swiper-slide">
+          <img class="trainers__img" src="img/trainers-4.jpg" alt="">
+          <div class="trainers__name">Константин Назаров</div>
+          <div class="trainers__text">преподаватель по робототехнике</div>
+          <button class="trainers__btn" data-graph-path="trainers-1">Подробнее</button>
+        </div>
+        <div class="swiper-slide">
+          <img class="trainers__img" src="img/trainers-5.jpg" alt="">
+          <div class="trainers__name">Лиза Весенняя</div>
+          <div class="trainers__text">преподаватель по программированию</div>
+          <button class="trainers__btn" data-graph-path="trainers-1">Подробнее</button>
+        </div>
+       …
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <div class="trainers__prev">
+        <svg class="">
+          <use xlink:href="img/sprite.svg#arrow-slide"></use>
+        </svg>
+      </div>
+      <div class="trainers__next">
+        <svg class="">
+          <use xlink:href="img/sprite.svg#arrow-slide"></use>
+        </svg>
+      </div>
+
+      <!-- If we need scrollbar -->
+      <div class="swiper-scrollbar trainers__scroll"></div>
+    </div>
+  </div>
+</section>
+      <section class="section price" id="price">
+  <div class="container">
+    <h2 class="title">Выберите нужный пакет</h2>
+    <div class="price__list">
+      <div class="price__item price__item--current">
+        <h3 class="price__subtitle"> PRO </h3>
+        <div class="price__price">20.000 ₽</div>
+        <div class="price__text">УМК по робототетхнике и программированию</div>
+        <button class="price__btn btn">Оставить заявку</button>
+      </div>
+      <div class="price__item">
+        <h3 class="price__subtitle"> ROBO </h3>
+        <div class="price__price">15.000 ₽</div>
+        <div class="price__text">УМК по робототетхнике </div>
+        <button class="price__btn btn">Оставить заявку</button>
+      </div>
+      <div class="price__item">
+        <h3 class="price__subtitle"> PROG </h3>
+        <div class="price__price">10.000 ₽</div>
+        <div class="price__text">УМК по робототетхнике</div>
+        <button class="price__btn btn">Оставить заявку</button>
+      </div>
+    </div>
+  </div>
+</section>
+      <section class="order" id="order">
+  <div class="container">
+    <div class="order__list">
+      <div class="order__left">
+        <h2 class="order__title">Запишитесь на курс со скидкой 10%</h2>
+        <p class="order__text">Акция действительна до 10 марта 2022 года</p>
+      </div>
+      <div class="order__right">
+        <form action="#" class="order__form form" id="form" autocomplete="off" method="POST"
+          enctype="multipart/form-data">
+          <label class="order__label">
+            <input id="name" type="text" name="Имя" class="order__input input__name" placeholder="Имя">
+          </label>
+          <label class="order__label">
+            <input id="tel" type="tel" name="tel" class="order__input input__tel" placeholder="Номер телефона">
+          </label>
+          <label class="order__label">
+            <input type="email" name="email" id="email" class="order__input  input__email" placeholder="E-mail">
+          </label>
+          <button class="order__btn btn">Оформить заявку</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+    </main>
+
+    <footer class="footer">
+  <div class="container-fluid">
+    <div class="footer__row">
+      <div class="footer__left">
+        <a href="" class="footer__logo logo">
+          <img src="img/logo.svg" alt="" class="logo__img">
+        </a>
+        <div class="footer__copy">© ROBO.SCHOOL</div>
+      </div>
+      <div class="footer__right">
+        <a href="tel:+78000001122" class="footer__phone phone">+7 (800-00) 0-11-22</a>
+      </div>
+    </div>
+
+  </div>
+</footer>
+    <div class="graph-modal">
+  <div class="graph-modal__container popup" role="dialog" aria-modal="true" data-graph-target="trainers-1">
+    <button class="js-modal-close graph-modal__close" aria-label="Закрыть модальное окно">Закрыть</button>
+    <div class="graph-modal__content">
+      <div class="popup__top">
+        <div class="popup__img">
+          <img src="img/popup-1.jpg" alt="">
+        </div>
+        <div class="popup__info">
+          <div class="popup__name">Марина Орлова</div>
+          <div class="popup__post">преподаватель по робототехнике</div>
+          <div class="popup__social">
+            <div class="popup__item">
+              <a href="" class="popup__link">
+                <img src="../img/fb.svg" alt="">
+              </a>
+            </div>
+            <div class="popup__item">
+              <a href="" class="popup__link">
+                <img src="../img/inst.svg" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="popup__bottom">
+        <div class="tabs" data-tabs="popup">
+          <ul class="tabs__nav">
+            <li class="tabs__nav-item"><button class="tabs__nav-btn" type="button">Образование</button></li>
+            <li class="tabs__nav-item"><button class="tabs__nav-btn" type="button">Опыт работы</button></li>
+            <li class="tabs__nav-item"><button class="tabs__nav-btn" type="button">Награды</button></li>
+          </ul>
+          <div class="tabs__content" data-simplebar>
+            <div class="tabs__panel">
+              <div class="popup__descr">
+                <div class="popup__text">Сентябрь 1995 — Июнь 2000</div>
+                <div class="popup__text">Санкт-Петербургский политехнический университет Петра Великого</div>
+                <div class="popup__text">Факультет: Компьютерных наук и технологий</div>
+                <div class="popup__text">Специальность: Математика и компьютерные науки</div>
+                <div class="popup__text">Форма обучения: Очная</div>
+              </div>
+              <div class="popup__content">
+                <div class="popup__subtitle">
+                  Курсы и тренинги
+                </div>
+                <div class="popup__text">Сентябрь 1995 — Июнь 2000</div>
+                <div class="popup__text">Санкт-Петербургский политехнический университет Петра Великого</div>
+                <div class="popup__text">Факультет: Компьютерных наук и технологий</div>
+                <div class="popup__text">Специальность: Математика и компьютерные науки</div>
+                <div class="popup__text">Форма обучения: Очная</div>
+              </div>
+            </div>
+            <div class="tabs__panel">
+              <div class="popup__descr">
+                <div class="popup__text">Сентябрь 1995 — Июнь 2000</div>
+                <div class="popup__text">Санкт-Петербургский политехнический университет Петра Великого</div>
+                <div class="popup__text">Факультет: Компьютерных наук и технологий</div>
+                <div class="popup__text">Специальность: Математика и компьютерные науки</div>
+                <div class="popup__text">Форма обучения: Очная</div>
+              </div>
+              <div class="popup__content">
+                <div class="popup__subtitle">
+                  Курсы и тренинги
+                </div>
+                <div class="popup__text">Сентябрь 1895 — Июнь 2021</div>
+                <div class="popup__text">Санкт-Петербургский политехнический университет Петра Великого</div>
+                <div class="popup__text">Факультет: Компьютерных наук и технологий</div>
+                <div class="popup__text">Специальность: Математика и компьютерные науки</div>
+                <div class="popup__text">Форма обучения: Очная</div>
+              </div>
+            </div>
+            <div class="tabs__panel">
+              <div class="popup__descr">
+                <div class="popup__text">Сентябрь 1895 — Июнь 2021</div>
+                <div class="popup__text">Санкт-Петербургский политехнический университет Петра Великого</div>
+                <div class="popup__text">Факультет: Компьютерных наук и технологий</div>
+                <div class="popup__text">Специальность: Математика и компьютерные науки</div>
+                <div class="popup__text">Форма обучения: Очная</div>
+              </div>
+              <div class="popup__content">
+                <div class="popup__subtitle">
+                  Курсы и тренинги
+                </div>
+                <div class="popup__text">Сентябрь 1995 — Июнь 2000</div>
+                <div class="popup__text">Санкт-Петербургский политехнический университет Петра Великого</div>
+                <div class="popup__text">Факультет: Компьютерных наук и технологий</div>
+                <div class="popup__text">Специальность: Математика и компьютерные науки</div>
+                <div class="popup__text"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+
+</body>
+
+</html>
